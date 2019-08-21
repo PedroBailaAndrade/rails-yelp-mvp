@@ -1,0 +1,96 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+body{
+  background-color: #f2d9e6;
+}
+
+.show-restaurants {
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #b3b3ff;
+  color: white;
+  text-align: center;
+  width: 600px;
+  border-radius: 10px;
+}
+
+h1 {
+  padding-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.add-rest{
+  margin: 10px 20px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.h1-show{
+  font-size: 50px;
+  color: red;
+  padding-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.p-show{
+  padding-left: 50px;
+}
+
+.links{
+  display: inline-grid;
+  padding-left: 20px;
+}
+
+.add-rev{
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.review{
+  padding-left: 30px;
+  background-color: azure;
+  width: 350px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.p-rev{
+  background-color: blue;
+  width: fit-content;
+  padding: 10px;
+}
+
+.user-rev{
+  border: 1px solid blue;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  border-radius: 5px;
+  width: fit-content;
+  margin-top: 15px;
+}
+
+.p-user-rev{
+  border-bottom: 0.5px solid blue;
+}
+
+.cenas{
+  padding-right: 100px;
+  padding-left: 100px;
+}
+

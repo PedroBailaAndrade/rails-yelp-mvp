@@ -1,0 +1,20 @@
+<h1>Add review for <%= @restaurant.name %></h1>
+
+<%= simple_form_for [@restaurant, @review] do |f| %>
+  <%= f.error_notification %>
+  <div class="cenas">
+  <div class="form-inputs">
+    <%= f.input :content %>
+  </div>
+
+  <div class="form-inputs">
+    <%= f.input :rating, input_html: { max: 5, min: 0 } %>
+  </div>
+  </div>
+  <div class="form-actions">
+    <%= f.button :submit, class:"btn btn-primary"  %>
+  </div>
+<% end %>
+
+
+<%= link_to "Go back to list", restaurants_path %>
